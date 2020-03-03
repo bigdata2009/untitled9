@@ -18,7 +18,7 @@ object SparkWordCount extends App {
 //
   //stocsDF.show()
     .master("local[*]")
-    .appName("Spark Word 45 Count")
+    .appName("Spark Word 45 Count 67")
     .getOrCreate()
 
   val lines = spark.sparkContext.parallelize(
